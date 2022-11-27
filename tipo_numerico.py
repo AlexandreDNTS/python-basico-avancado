@@ -14,3 +14,11 @@ porten = 5**2  # potenciação (5²)
 valor1, valor2 = 1, 44
 print(valor1)
 print(valor2)
+
+# converter o tipo de uma variável
+
+print(type(valor2))  # tipo int
+v = float(valor2)  # converte para float
+v1 = str(valor2)  # converte para string
+print(type(v))
+print(type(v1))
